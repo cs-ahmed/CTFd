@@ -29,4 +29,4 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 
 # Generate KEY and CRT in ssl directory
-openssl req -new -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out ./ssl/ctfd.crt -keyout ./ssl/ctfd.key
+sudo openssl req -new -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out ./ssl/ctfd.crt -keyout ./ssl/ctfd.key
